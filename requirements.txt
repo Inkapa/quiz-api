@@ -1,0 +1,17 @@
+# DB
+SQLAlchemy~=1.4.28
+databases~=0.5.3
+ormar~=0.10.23
+asyncpg~=0.25.0
+
+# ASGI
+uvicorn~=0.16.0
+gunicorn~=20.1.0
+
+# API framework
+fastapi~=0.70.1
+
+# Misc
+python-dotenv==0.19.2
+pydantic~=1.8.2
+
