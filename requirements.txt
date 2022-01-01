@@ -6,7 +6,6 @@ asyncpg~=0.25.0
 
 # ASGI
 uvicorn~=0.16.0
-gunicorn~=20.1.0
 
 # API framework
 fastapi~=0.70.1
