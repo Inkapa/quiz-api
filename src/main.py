@@ -1,5 +1,4 @@
 import uvicorn
-import src.endpoints
 import src.config
 
 if __name__ == "__main__":
