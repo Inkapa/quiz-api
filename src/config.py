@@ -1,13 +1,11 @@
 import databases
 import sqlalchemy
-from fastapi import FastAPI
 from dotenv import load_dotenv
 import os
 from fastapi.middleware.cors import CORSMiddleware
-import src.endpoints
+from src.main import app
 
 load_dotenv()
-app = FastAPI()
 
 # Cors configuration (example below allows all)
 app.add_middleware(
